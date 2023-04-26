@@ -1,0 +1,19 @@
+.card{
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition-duration: .5s;
+    p{
+        transition-duration: .5s;
+        color: white;
+    }
+    cursor: pointer;
+    &:hover{
+        box-shadow: inset 60px 40px 65px 0px rgba(64,59,64,1);
+        background-color: rgb(105, 9, 9);
+    }
+}
